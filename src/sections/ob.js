@@ -17,7 +17,10 @@ const sections = [
   {
     title: "General HPI Note",
     content: (
+
       <div>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/14R4d7ERuIg?si=XtXJHFE6UTLPA3d9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
         <h3>HPI Note</h3>
         <p>
           Refer to general HPI note but add the following relevant ROS, relevant prenatal visit questions, Ob/Gyn history, and social history:
@@ -100,6 +103,7 @@ const sections = [
     title: 'Diagnosis of Gestational Diabetes Mellitus',
     content: (
       <div>
+
         <h3>Gestational Diabetes Mellitus (GDM)</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
@@ -233,10 +237,11 @@ const sections = [
     ),
   },
   {
-    title: 'Diagnosis of Gestational Hypertension',
+    title: 'Gestational Hypertension & Preeclampsia',
     content: (
       <div>
-        <h3>Gestational Hypertension (gHTN)</h3>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ye0E5BeWRPY?si=kgfVWi_Usxi4HEpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        <h1>Gestational Hypertension (gHTN)</h1>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -333,17 +338,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
-      </div>
-    ),
-  },
-
-
-
-  {
-    title: 'Diagnosis of Preeclampsia',
-    content: (
-      <div>
-        <h3>Preeclampsia</h3>
+        <h1>Preeclampsia</h1>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -456,12 +451,17 @@ const sections = [
     ),
   },
 
+
+
+  
+
   // Add this section to your sections array in ob.js
 
   {
     title: 'Pregnancy Care',
     content: (
       <div>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ruBOnGByk38?si=QD9dCQtXTXKztz8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
         <h3>Prenatal Care by Trimester</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
