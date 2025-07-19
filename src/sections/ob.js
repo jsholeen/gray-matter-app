@@ -1,5 +1,5 @@
 import SectionTemplate from '../components/SectionTemplate';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 const thStyle = {
   border: '1px solid black',
@@ -746,14 +746,28 @@ const sections = [
 ]
 const Ob = () => {
   const [openIndex, setOpenIndex] = useState(null);
+    const refs = useRef([]);
+  
+    const handleOpen = (idx) => {
+      setOpenIndex(idx === openIndex ? null : idx);
+      setTimeout(() => {
+        if (refs.current[idx]) {
+          refs.current[idx].scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 0);
+    };
+  
 
   return (
     <SectionTemplate
       title="Obstetrics"
-      content={
+       content={
         <div>
           {sections.map((section, idx) => (
-            <div key={section.title} style={{ marginBottom: 10 }}>
+            <div
+              key={section.title}
+              style={{ marginBottom: 10 }}
+              ref={el => refs.current[idx] = el}>
               <button
                 style={{
                   width: '100%',
@@ -765,7 +779,7 @@ const Ob = () => {
                   border: '1px solid #ccc',
                   fontWeight: 'bold',
                 }}
-                onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
+                onClick={() => handleOpen(idx)}
               >
                 {section.title}
               </button>
