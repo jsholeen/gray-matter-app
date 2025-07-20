@@ -1,4 +1,4 @@
-import SectionTemplate from '../components/SectionTemplate';
+import SubSectionTemplate from '../components/SubSectionTemplate';
 import React, { useState, useRef } from 'react';
 import { thStyle, tdStyle } from '../styles/styles';
 
@@ -967,7 +967,7 @@ const Gyn = ({openIndex, setOpenIndex, startIndex}) => {
 
 
   return (
-    <SectionTemplate
+    <SubSectionTemplate
       title="Gynecology"
       content={
         <div>

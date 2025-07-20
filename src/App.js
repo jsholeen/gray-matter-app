@@ -21,7 +21,6 @@ import ROS from './sections/GeneralTopics/ROS';
 import PE from './sections/GeneralTopics/PE';
 import Presentation from './sections/GeneralTopics/Presentation'; // Import the Presentation component
 import ScrollToTop from './ScrollToTop';
-import ObstetricsGynecology from './sections/ObstetricsGynecology'; // Import Obstetrics and Gynecology section
 import ObGyn from './sections/OBGYN test';
 
 function App() {
@@ -36,7 +35,6 @@ function App() {
         <Route path="/Imaging" element={<Imaging />}/>
         <Route path="/Neurology" element={<Neurology />} />
         <Route path="/Psychiatry" element={<Psychiatry />} />
-        <Route path="/ObstetricsGynecology" element={<ObstetricsGynecology />} />
         <Route path="/Labor" element={<Labor />} />
         <Route path="/ob" element={<Ob />} />
         <Route path="/gyn" element={<Gyn />} />

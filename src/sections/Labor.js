@@ -1,4 +1,4 @@
-import SectionTemplate from '../components/SectionTemplate';
+import SubSectionTemplate from '../components/SubSectionTemplate';
 import React, { useState, useRef } from 'react';
 import { thStyle, tdStyle } from '../styles/styles';
 
@@ -644,7 +644,7 @@ const Labor = ({openIndex, setOpenIndex, startIndex}) => {
   };
 
   return (
-    <SectionTemplate
+    <SubSectionTemplate
       title="Labor and Delivery"
       content={
         <div>

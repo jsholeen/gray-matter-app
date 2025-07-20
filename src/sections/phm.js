@@ -286,8 +286,189 @@ const sections = [
           <th style={{ border: "1px solid #ccc", padding: "8px", background: "#973d38ff" }}>Gram negatives with inducible beta-lactamase activity</th>
         </tr>
       </thead>
+      <tbody>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#e6ebf4ff"}}>Penicillin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td> 
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={2} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#d7ced9ff" }}>Amoxicillin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td> 
+          <td colSpan={2} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#e6ebf4ff" }}>Flucloxacillin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={3} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#d7ced9ff"  }}>Cefazolin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td colSpan={3}style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#e6ebf4ff" }}>Clindamycin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#e6ebf4ff" }}>Clindamycin</td>
+        </tr>
+        <tr>
+          <td rowSpan={2} colSpan={2} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#e6ebf4ff" }}>Rifampicin/fusidic acid</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}>Metronidazole</td>
+        </tr>
+        <tr>
+          <td colSpan={3} rowSpan={2} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#e6ebf4ff" }}>Vancomycin/teicoplanin, linezolid, daptomycin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffb4a8ff" }}>Trimethoprim</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={6} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#d2a0bfff" }}>Ciprofloxacin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={4} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffb4a8ff" }}>Gentamicin/tobramycin, aztreonam</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={3} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Moxifloxacin</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={2} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Moxifloxacin</td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={3} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#d7ced9ff"  }}>Cefuroxime</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={4} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#d7ced9ff"  }}>Ceftriaxone</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={3} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffb4a8ff" }}>Ceftazidime</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={6} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#d2a0bfff" }}>Cefepime</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={3} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Amoxicillin-Clavulanate</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Amoxicillin-Clavulanate</td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={5} rowSpan={2} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Ticarcillin-Clavulanate, Piperacillin-Tazobactam</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Ticarcillin-Clavulanate, Piperacillin-Tazobactam</td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={7} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Meropenem, Imipenem</td>
+        </tr>
+        <tr>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={4} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Ertapenem</td>
+          <td style={{ border: "1px solid #ccc", padding: "8px" }}></td>
+          <td colSpan={2} style={{ border: "1px solid #ccc", padding: "8px", backgroundColor: "#ffe3a8ff" }}>Ertapenem</td>
+        </tr>
+      </tbody>
 
   </table>
+    )
+  },
+    // Add this section to your sections array in phm.js
+  
+  {
+    title: "Tips for Success",
+    content: (
+      <div>
+        <h3>Tips for Success</h3>
+        <ul>
+          <li>Master the skill of family-centered rounds!</li>
+          <li>After you're done with your work, check in with your patients and talk with them. These children are often alone in a completely foreign setting. Help them feel comfortable!</li>
+          <li>Read up on your patients by looking at admission reason, ER course, current management, and writing down their medications and when was the last time PRN meds were given.</li>
+          <li>When talking to the families during pre-rounds, give the plan and discuss your thoughts comfortably with them. If you are unsure, do not worry as the team will come together and consolidate that information.</li>
+          <li>In the afternoon after rounds, offer to provide consults, check up on patients, and repeat some physical exam findings that may have changed over time.</li>
+          <li>During noon conference, push yourself to shout out differentials you are considering as it is a way for you to not only actively engage but also learn a lot which can be translated to the patients you see during rounds!</li>
+        </ul>
+      </div>
     )
   }
 

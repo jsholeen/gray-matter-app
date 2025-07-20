@@ -7,11 +7,7 @@ const sections = [
   { title: "Imaging", path: "/Imaging" },
   { title: "Neurology", path: "/Neurology" },
   { title: "Psychiatry", path: "/Psychiatry" },
-  { title: "Obstetrics and Gynecology", path: "/ObstetricsGynecology" },
-  { title: "Labor and Delivery", path: "/Labor" },
-  { title: "ObGyn: Labor & Delivery", path: "/labor" },
-  { title: "ObGyn: Obstetrics", path: "/ob" },
-  { title: "ObGyn: Gynecology", path: "/gyn" },
+  { title: "Obstetrics and Gynecology", path: "/OBGYN Test" },
   { title: "Family and Community Medicine", path: "/family" },
   { title: "Pediatrics: Pediatric Hospital Medicine", path: "/PHM" },
   { title: "Pediatrics: Neonatology", path: "/neo" },
@@ -19,7 +15,7 @@ const sections = [
   { title: "Internal Medicine", path: "/im" },
   { title: "Surgery", path: "/surgery" },
   { title: "Feedback", path: "/Feedback" },
-  { title: "ObGyn", path: "/OBGYN Test"}
+
 ]
 
 const Home = () => {
