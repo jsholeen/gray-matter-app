@@ -7,6 +7,8 @@ const sections = [
   { title: "Imaging", path: "/Imaging" },
   { title: "Neurology", path: "/Neurology" },
   { title: "Psychiatry", path: "/Psychiatry" },
+  { title: "Obstetrics and Gynecology", path: "/ObstetricsGynecology" },
+  { title: "Labor and Delivery", path: "/Labor" },
   { title: "ObGyn: Labor & Delivery", path: "/labor" },
   { title: "ObGyn: Obstetrics", path: "/ob" },
   { title: "ObGyn: Gynecology", path: "/gyn" },
