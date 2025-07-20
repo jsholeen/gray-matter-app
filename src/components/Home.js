@@ -19,6 +19,7 @@ const sections = [
   { title: "Internal Medicine", path: "/im" },
   { title: "Surgery", path: "/surgery" },
   { title: "Feedback", path: "/Feedback" },
+  { title: "ObGyn", path: "/OBGYN Test"}
 ]
 
 const Home = () => {

@@ -1,4 +1,5 @@
 import SectionTemplate from '../components/SectionTemplate';
+import { thStyle, tdStyle } from '../styles/styles';
 
 const Surgery = () => {
   return (

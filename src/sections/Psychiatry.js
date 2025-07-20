@@ -1,4 +1,5 @@
 import SectionTemplate from '../components/SectionTemplate';
+import { thStyle, tdStyle } from '../styles/styles';
 
 const Psychiatry = () => {
   return (
@@ -212,17 +213,6 @@ const Psychiatry = () => {
   );
 };
 
-const thStyle = {
-  border: '1px solid black',
-  padding: '8px',
-  backgroundColor: '#f2f2f2',
-  textAlign: 'left',
-};
-
-const tdStyle = {
-  border: '1px solid black',
-  padding: '8px',
-};
 
 
 export default Psychiatry;

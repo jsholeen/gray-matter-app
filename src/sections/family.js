@@ -1,17 +1,9 @@
 import SectionTemplate from '../components/SectionTemplate';
 import React, { useState, useRef } from 'react';
+import { thStyle, tdStyle } from '../styles/styles';
 
-const thStyle = {
-  border: '1px solid black',
-  padding: '8px',
-  backgroundColor: '#f2f2f2',
-  textAlign: 'left',
-};
 
-const tdStyle = {
-  border: '1px solid black',
-  padding: '8px',
-};
+
 
 const converted = {
   element: { "--mobile-header-offset": "0px", "--progress-value": "41%" },
@@ -575,169 +567,6 @@ const sections = [
           USPSTF consists of a panel of experts in primary care that provide evidence-based recommendations for preventative health screenings. Grade A and B recommendations are of high significance to medical students during their family medicine rotation.<br />
           <a href="https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations" target="_blank" rel="noopener noreferrer">USPSTF A and B Recommendations</a>
         </p>
-        <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em', fontSize: '0.95em' }}>
-          <thead>
-            <tr>
-              <th style={thStyle}>Age Group</th>
-              <th style={thStyle}>Recommended Health Screening/Intervention</th>
-              <th style={thStyle}>Grade</th>
-            </tr>
-          </thead>
-          <tbody >
-            <tr>
-              <td style={tdStyle} rowSpan={1}>Newborns</td>
-              <td style={{ ...tdStyle, backgroundColor: "#99d8c9" }}>Ocular prophylaxis to prevent gonococcal ophthalmia</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td style={tdStyle} rowSpan={2}>Children (0-5 years)</td>
-              <td style={tdStyle}>Fluoride varnish to prevent dental caries (≥6 months)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Vision screening for amblyopia/risk factors (3-5 years)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td style={tdStyle} rowSpan={4}>Children & Adolescents (6-18 years)</td>
-              <td style={tdStyle}>Anxiety screening (8-18 years)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>High BMI intervention (≥6 years)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Major depressive disorder (MDD) screening (12-18 years)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Skin cancer counseling (6 months to 24 years, fair skin)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td style={tdStyle} rowSpan={7}>Adults (18-64 years)</td>
-              <td style={tdStyle}>Hypertension screening (every visit)</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>HIV screening (15-65 years)</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Cervical cancer screening (Women 21-29: cytology every 3y; Women 30-65: cytology every 3y OR hrHPV every 5y OR both every 5y)</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Hepatitis C virus screening (18-79 years)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Anxiety screening (adults under 65)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Breast cancer screening (biennial mammography, women 40-74)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Chlamydia screening (sexually active women ≤24y and ≥25y at risk)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td style={tdStyle} rowSpan={10}>Pregnant Persons</td>
-              <td style={tdStyle}>Folic acid supplementation</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Hepatitis B screening (first prenatal visit)</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Rh(D) blood typing and antibody testing (first prenatal visit)</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Syphilis screening (early in pregnancy)</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Asymptomatic bacteriuria screening (urine culture)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Low-dose aspirin for preeclampsia risk (after 12 weeks gestation)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Gestational diabetes screening (≥24 weeks)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Breastfeeding support interventions</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Hypertensive disorder screening</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Perinatal depression counseling</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td style={tdStyle} rowSpan={8}>Adults (65+ years)</td>
-              <td style={tdStyle}>Colorectal cancer screening (50-75 years)</td>
-              <td style={tdStyle}>A</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Colorectal cancer screening (45-50 years)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Osteoporosis screening (≥65 years)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Fall prevention interventions</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Abdominal aortic aneurysm screening (65-75 years, men who smoked)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Adults aged 50 to 80 years who have a 20 pack-year smoking history and currently smoke or have quit within the past 15 years should receive Low-dose computed tomography (LDCT) for lung cancer screening.</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Depression and suicide risk screening</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-            <tr>
-              <td style={tdStyle}>Anxiety disorder screening (all ages)</td>
-              <td style={tdStyle}>B</td>
-            </tr>
-          </tbody>
-        </table>
-        <p style={{ fontSize: '0.95em' }}><strong>Legend:</strong> <br />
-          <strong>A</strong>: Recommended (significant benefit) &nbsp;
-          <strong>B</strong>: Recommended (moderate benefit)
-        </p>
-
-
-
-
         <table>
           <thead>
             <tr>
@@ -779,44 +608,7 @@ const sections = [
     ),
   },
 
-  {
-    title: "Tips for Success",
-    content: (
-      <div>
-        <h3>Tips for Success</h3>
-        <h4>Arman</h4>
-        <ul>
-          <li>USPSTF criteria is a MUST KNOW for the shelf. Know it like the back of your hand!</li>
-          <li>Some clinic sites are far; make at least one way of the trip useful by listening to FM podcasts or YouTube videos (Dr. High Yield, Divine Intervention).</li>
-          <li>You may need to write notes for every patient. Ask for smart phrases to speed up documentation.</li>
-          <li>Go through all FM Anki and FM UWorld. If you have time, review ambulatory too (slightly lower yield for shelf).</li>
-        </ul>
-        <h4>Ramtin</h4>
-        <ul>
-          <li>This rotation may have the highest patient volume. Be mentally prepared for the pace and repetition, but the work is straightforward.</li>
-          <li>Learn when to take a full history vs. focused questions. Not every patient needs a full interview.</li>
-          <li>Be familiar with USPSTF A and B recommendations and adult vaccination timelines.</li>
-        </ul>
-        <h4>Piya</h4>
-        <ul>
-          <li>Do all UWorld Family and Ambulatory Medicine questions.</li>
-          <li>Review USPSTF Guidelines (anki deck: HoggieMed).</li>
-        </ul>
-        <h4>Hasham</h4>
-        <ul>
-          <li>Make the most of clinic time; you learn a lot about chronic conditions like DM and osteoarthritis. FM is broad—focus on high yield topics and do all UWorld and ambulatory questions.</li>
-          <li>For presentations, focus on actionable items for the visit; physicians appreciate concise, targeted presentations.</li>
-          <li>FM aims to address acute/critical issues and manage chronic conditions together.</li>
-        </ul>
-        <h4>Luay</h4>
-        <ul>
-          <li>FM is fast-paced; read up on your patients in advance, review main complaint, last clinic note, and consider medication adjustments or questions for the visit.</li>
-          <li>Every clinic and physician has their own management style. Learn as much as you can—FM is broad and fun, with a wide variety of patient presentations.</li>
-        </ul>
 
-      </div>
-    ),
-  },
 
   {
     title: "Vaccine Schedules",
@@ -2942,7 +2734,7 @@ const Family = () => {
     <>
     <SectionTemplate
       title="Family and Community Medicine"/>
-  content={
+        {
         <div>
           {sections.map((section, idx) => (
             <div

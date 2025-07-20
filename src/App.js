@@ -22,6 +22,7 @@ import PE from './sections/GeneralTopics/PE';
 import Presentation from './sections/GeneralTopics/Presentation'; // Import the Presentation component
 import ScrollToTop from './ScrollToTop';
 import ObstetricsGynecology from './sections/ObstetricsGynecology'; // Import Obstetrics and Gynecology section
+import ObGyn from './sections/OBGYN test';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/ROS" element={<ROS />} />
         <Route path="/PE" element={<PE />} />
         <Route path="/Presentation" element={<Presentation />} /> {/* Add the Presentation route */}
+        <Route path="/OBGYN Test" element={<ObGyn />} /> 
 
 
        

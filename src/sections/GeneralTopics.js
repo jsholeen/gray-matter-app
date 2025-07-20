@@ -1,6 +1,7 @@
 import SectionTemplate from '../components/SectionTemplate';
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
+import { thStyle, tdStyle, resourceImgStyle, resourceLinkStyle } from '../styles/styles';
 
 const sections = [
   { title: "General HPI Template", path: "/HPI" },
@@ -343,7 +344,7 @@ const GeneralTopics = () => {
           <span>Aquifer Cases</span>
         </a>
         <a href="https://www.cdc.gov/ncbddd/actearly/milestones-app.html" target="_blank" rel="noopener noreferrer" style={resourceLinkStyle}>
-          <img src="https://www.cdc.gov/favicon.ico" alt="CDC Milestone Tracker" style={resourceImgStyle} />
+          <img src="https://play-lh.googleusercontent.com/F_ey5NpRYgiEpYgT3Uexf6sSRhIl7l-gOXu_HSokDcWCpI2Dt89pkK_4JTqtKMheQk7U=w480-h960" alt="CDC Milestone Tracker" style={resourceImgStyle} />
           <span>CDC Milestone Tracker</span>
         </a>
         <a href="https://www.cdc.gov/vaccines/?CDC_AAref_Val=https://www.cdc.gov/vaccines/schedules/index.html" target="_blank" rel="noopener noreferrer" style={resourceLinkStyle}>
@@ -493,32 +494,3 @@ export default GeneralTopics;
 
 
 
-
-
-const thStyle = {
-  border: '1px solid black',
-  padding: '8px',
-  backgroundColor: '#f2f2f2',
-  textAlign: 'left',
-};
-
-const tdStyle = {
-  border: '1px solid black',
-  padding: '8px',
-};
-
-const resourceLinkStyle = {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  textDecoration: 'none',
-  color: '#333',
-  width: 100,
-};
-
-const resourceImgStyle = {
-  width: 48,
-  height: 48,
-  borderRadius: 8,
-  marginBottom: 8,
-};

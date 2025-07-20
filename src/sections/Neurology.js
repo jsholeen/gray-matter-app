@@ -1,17 +1,6 @@
 import SectionTemplate from '../components/SectionTemplate';
 import React, { useState, useRef } from 'react';
-
-const thStyle = {
-  border: '1px solid black',
-  padding: '8px',
-  backgroundColor: '#f2f2f2',
-  textAlign: 'left',
-};
-
-const tdStyle = {
-  border: '1px solid black',
-  padding: '8px',
-};
+import { thStyle, tdStyle } from '../styles/styles';
 
 const sections = [
   {

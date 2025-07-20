@@ -1,17 +1,8 @@
 import SectionTemplate from '../components/SectionTemplate';
 import React, { useState, useRef } from 'react';
+import { thStyle, tdStyle } from '../styles/styles';
 
-const thStyle = {
-  border: '1px solid black',
-  padding: '8px',
-  backgroundColor: '#f2f2f2',
-  textAlign: 'left',
-};
 
-const tdStyle = {
-  border: '1px solid black',
-  padding: '8px',
-};
 
 const sections = [
   {
@@ -637,12 +628,14 @@ const sections = [
 
 
 
-const Labor = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+const Labor = ({openIndex, setOpenIndex, startIndex}) => {
+
+  //const [openIndex, setOpenIndex] = useState(null);
   const refs = useRef([]);
 
   const handleOpen = (idx) => {
-    setOpenIndex(idx === openIndex ? null : idx);
+    const globalIdx = startIndex + idx;
+    setOpenIndex(openIndex === globalIdx ? null : globalIdx);
     setTimeout(() => {
       if (refs.current[idx]) {
         refs.current[idx].scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -667,7 +660,7 @@ const Labor = () => {
                   fontSize: '1rem',
                   borderRadius: 8,
                   cursor: 'pointer',
-                  background: openIndex === idx ? '#e0e0e0' : '#f9f9f9',
+                  background: openIndex === startIndex + idx ? '#e0e0e0' : '#f9f9f9',
                   border: '1px solid #ccc',
                   fontWeight: 'bold',
                 }}
@@ -675,7 +668,7 @@ const Labor = () => {
               >
                 {section.title}
               </button>
-              {openIndex === idx && (
+              {openIndex === startIndex + idx && (
                 <div style={{ padding: '12px 8px', background: '#fafafa', border: '1px solid #eee', borderRadius: 8 }}>
                   {section.content}
                 </div>
