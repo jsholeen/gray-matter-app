@@ -10,9 +10,6 @@ const sections = [
   { title: "Obstetrics and Gynecology", path: "/OBGYN Test" },
   { title: "Family and Community Medicine", path: "/family" },
   { title: "Pediatrics", path: "/Pediatrics" },
-  { title: "Pediatrics: Pediatric Hospital Medicine", path: "/PHM" },
-  { title: "Pediatrics: Neonatology", path: "/neo" },
-  { title: "Pediatrics: Community", path: "/peds" },
   { title: "Internal Medicine", path: "/im" },
   { title: "Surgery", path: "/surgery" },
   { title: "Feedback", path: "/Feedback" },
@@ -35,7 +32,7 @@ const Home = () => {
 
 
         <h1 style={{ color: '#fff', textShadow: '2px 2px 4px #000' }}>Welcome to the Gray Matter Website</h1>
-        <div style={{ marginTop: 500 }}>
+        <div style={{ marginTop: 50 }}>
         {sections.map((section) => (
           <div key={section.path} style={{  marginBottom: 10 }}>
             <Link to={section.path}>
