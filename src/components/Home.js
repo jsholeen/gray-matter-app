@@ -9,6 +9,7 @@ const sections = [
   { title: "Psychiatry", path: "/Psychiatry" },
   { title: "Obstetrics and Gynecology", path: "/OBGYN Test" },
   { title: "Family and Community Medicine", path: "/family" },
+  { title: "Pediatrics", path: "/Pediatrics" },
   { title: "Pediatrics: Pediatric Hospital Medicine", path: "/PHM" },
   { title: "Pediatrics: Neonatology", path: "/neo" },
   { title: "Pediatrics: Community", path: "/peds" },

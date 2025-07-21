@@ -22,6 +22,8 @@ import PE from './sections/GeneralTopics/PE';
 import Presentation from './sections/GeneralTopics/Presentation'; // Import the Presentation component
 import ScrollToTop from './ScrollToTop';
 import ObGyn from './sections/OBGYN test';
+import Feedback from './sections/Feedback';
+import Pediatrics from './sections/Pediatrics'; // Import the Pediatrics component
 
 function App() {
   return (
@@ -50,6 +52,8 @@ function App() {
         <Route path="/PE" element={<PE />} />
         <Route path="/Presentation" element={<Presentation />} /> {/* Add the Presentation route */}
         <Route path="/OBGYN Test" element={<ObGyn />} /> 
+        <Route path="/Feedback" element={<Feedback />} />
+        <Route path="/Pediatrics" element={<Pediatrics />} /> {/* Add the Pediatrics route */}
 
 
        

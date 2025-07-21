@@ -1,10 +1,13 @@
 import SectionTemplate from "../components/SectionTemplate";
-import Ob from "./ob";
-import Labor from "./Labor";
-import Gyn from "./gyn";
-import React, {useState} from "react";
+import React, { useState } from "react";
+import PHM from "./phm";
+import Neo from "./neo";
+import Peds from "./peds";
+import { sections as neoSections } from "./neo";
+import { sections as phmSections } from "./phm";
+import { sections as pedsSections } from "./peds";
 
-const ObGyn = () => {
+const Pediatrics = () => {
     // openIndex is the global index for all dropdowns
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -17,32 +20,32 @@ const ObGyn = () => {
     // import { sections as gynSections } from "./gyn";
 
     // For demonstration, let's assume:
-    const obCount = 5;      // number of sections in ob.js
-    const laborCount = 5;   // number of sections in Labor.js
-    const gynCount = 5;     // number of sections in gyn.js
+    const neoCount = neoSections.length;      // number of sections in neo.js
+    const phmCount = phmSections.length;   // number of sections in phm.js
+    const pedsCount = pedsSections.length;     // number of sections in peds.js
     return (
         <><SectionTemplate title="Obstetrics and Gynecology">
 
 
 
         </SectionTemplate>
-        <Labor
+        <Neo
             openIndex={openIndex}
             setOpenIndex={setOpenIndex}
             startIndex={0}
         />
-        <Ob
+        <PHM
             openIndex={openIndex}
             setOpenIndex={setOpenIndex}
-            startIndex={laborCount}
+            startIndex={neoCount}
         />
-        <Gyn
+        <Peds
             openIndex={openIndex}
             setOpenIndex={setOpenIndex}
-            startIndex={laborCount + obCount}
+            startIndex={neoCount + phmCount}
         />
     </>
     );
 };
 
-export default ObGyn;
+export default Pediatrics;

@@ -1,4 +1,4 @@
-import SectionTemplate from '../components/SectionTemplate';
+import SubSectionTemplate from '../components/SubSectionTemplate';
 import React, { useState, useRef } from 'react';
 import { thStyle, tdStyle } from '../styles/styles';
 
@@ -474,12 +474,15 @@ const sections = [
 
 ]
 
-const PHM = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+export {sections};
+
+const PHM = ({ openIndex, setOpenIndex, startIndex }) => {
+  //const [openIndex, setOpenIndex] = useState(null);
   const refs = useRef([]);
 
   const handleOpen = (idx) => {
-    setOpenIndex(idx === openIndex ? null : idx);
+    const globalIdx = startIndex + idx;
+    setOpenIndex(openIndex === globalIdx ? null : globalIdx);
     setTimeout(() => {
       if (refs.current[idx]) {
         refs.current[idx].scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -487,9 +490,10 @@ const PHM = () => {
     }, 0);
   };
 
+
   return (
-    <SectionTemplate
-      title="Community Pediatrics"
+    <SubSectionTemplate
+      title="Pediatric Hospital Medicine"
       content={
         <div>
           {sections.map((section, idx) => (
@@ -504,7 +508,7 @@ const PHM = () => {
                   fontSize: '1rem',
                   borderRadius: 8,
                   cursor: 'pointer',
-                  background: openIndex === idx ? '#e0e0e0' : '#f9f9f9',
+                  background: openIndex === startIndex + idx ? '#e0e0e0' : '#f9f9f9',
                   border: '1px solid #ccc',
                   fontWeight: 'bold',
                 }}
@@ -512,7 +516,7 @@ const PHM = () => {
               >
                 {section.title}
               </button>
-              {openIndex === idx && (
+              {openIndex === startIndex + idx && (
                 <div style={{ padding: '12px 8px', background: '#fafafa', border: '1px solid #eee', borderRadius: 8 }}>
                   {section.content}
                 </div>
