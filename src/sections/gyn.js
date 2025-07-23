@@ -506,6 +506,7 @@ const sections = [
         </table>
 
         <h3>Vaginitis</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -533,6 +534,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>Cervicitis</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>

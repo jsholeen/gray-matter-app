@@ -341,6 +341,7 @@ const sections = [
         </table>
         <p><strong>Elective induction</strong> is only considered &gt;39 weeks of gestation to ensure fetal maturity and reduce risks associated with preterm birth.</p>
         <h3>IOL Medications</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -368,6 +369,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h3>IOL Physical Methods</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>

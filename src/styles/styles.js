@@ -25,3 +25,5 @@ export const resourceImgStyle = {
   borderRadius: 8,
   marginBottom: 8,
 };
+
+

@@ -669,7 +669,7 @@ const sections = [
                 </tbody>
               </table>
         
-
+              <div className='table-container'>
               <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                 <thead>
                   <tr><th colSpan={5} style={thStyle}><center>Postpartum Psychosis</center></th></tr>
@@ -703,6 +703,7 @@ const sections = [
                   </tr>
                 </tbody>
               </table>
+              </div>
             </div>
           
       </div>

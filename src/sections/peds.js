@@ -1,6 +1,7 @@
 import SubSectionTemplate from '../components/SubSectionTemplate';
 import React, { useState, useRef } from 'react';
 import { thStyle, tdStyle, resourceImgStyle, resourceLinkStyle } from '../styles/styles';
+import  'C:/Users/Jshol/Documents/Gray matter website/gray-matter/src/App.css';
 
 const Vaccines15mo = {
   element: { "--mobile-header-offset": "0px", "--progress-value": "21%" },
@@ -729,7 +730,7 @@ const sections = [
     title: "Vaccinations",
     content: (
       <>
-    <div className="dfe-block__inner">
+    <div className="table-container">
       <div className="dfe-block dfe-block--cdcmodule cdc_raw_html">
         <strong>
           <a id="table-1" className="onThisPageAnchor" title="" />
@@ -1650,7 +1651,7 @@ const sections = [
         </div>
       </div>
     </div>
-    <div className="dfe-block__inner">
+    <div className="table-container">
   <div className="dfe-block dfe-block--cdcmodule cdc_raw_html">
     <div className="schedules-tbl-wrapper">
       <table className="table table-schedule table-bordered">
@@ -2517,6 +2518,7 @@ const sections = [
           <li>Always assess on physical exam for any petechiae, ulcers, and ask if the patient is itchy anywhere.</li>
           <li>You will encounter many patients with eczema and coxsackievirus. Hence, a thorough investigation of hands, feet, and mouth can go a long way.</li>
         </ul>
+        <div className = "table-container">
         <table style={{ width: "100%", borderCollapse: "collapse", margin: "1em 0" }}>
           <thead>
             <tr>
@@ -2587,8 +2589,11 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h3>High-Yield Childhood Rashes</h3>
+        <div className="table-container">
         <center><img src="/rash-image.png" alt="High-Yield Childhood Rashes" /></center>
+        </div>
         {/* Add more rash details here as needed */}
       </>
     )

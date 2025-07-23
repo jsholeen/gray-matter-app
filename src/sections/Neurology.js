@@ -452,6 +452,7 @@ const sections = [
         </ul>
         <h4>Types of Strokes (Ischemic and Hemorrhagic)</h4>
         <h5>Ischemic Stroke (Peaks at onset and plateaus/improves over time)</h5>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -500,6 +501,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h5>Hemorrhagic Stroke (Has yet to peak and have progressively worse symptoms)</h5>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
@@ -597,6 +599,7 @@ const sections = [
         </ul>
         <h4>Post-Stroke Care</h4>
         <strong>Risk Factor Modification</strong>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -625,6 +628,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <strong>Rehabilitation</strong>
         <p>
           Early and intensive rehabilitation involving physical, occupational, and speech therapy is essential based on the patient's deficits.<br />
@@ -848,6 +852,7 @@ const sections = [
         </table>
 
         <h3>Delirium</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -884,7 +889,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
-
+        </div>
 
         <h3>Pseudodementia</h3>
         <p>
@@ -1116,6 +1121,7 @@ const sections = [
         </table>
 
         <h4>Antiseizure Medications</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em', fontSize: '0.95em' }}>
           <thead>
             <tr>
@@ -1248,6 +1254,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h4>Nonpharmacologic Therapies</h4>
         <ul>

@@ -862,6 +862,7 @@ const sections = [
   content: (
     <div>
       <h3>Vascular Conditions</h3>
+      <div className='table-container'>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -1079,6 +1080,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
     </div>
   ),
 },

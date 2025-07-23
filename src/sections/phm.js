@@ -73,7 +73,8 @@ const sections = [
   content: (
     <>
       <h2>URI vs. Bronchiolitis vs. Asthma vs. Pneumonia</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse", margin: "1em 0" }}>
+      <div className="table-container">
+      <table className='table-container' style={{ width: "100%", borderCollapse: "collapse", margin: "1em 0" }}>
         <thead>
           <tr>
             <th style={{ border: "1px solid #ccc", padding: "8px", background: "#F4FBFC" }}>Condition</th>
@@ -194,6 +195,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
       </>
       )
       },
@@ -269,6 +271,7 @@ const sections = [
   {
     title: "Antibiotic Coverage",
     content: (
+      <div className="table-container">
 <table style={{ width: "100%", borderCollapse: "collapse", margin: "1em 0" }}>
       <thead style={{ color: "white" }}>
         <tr>
@@ -451,6 +454,7 @@ const sections = [
       </tbody>
 
   </table>
+  </div>
     )
   },
     // Add this section to your sections array in phm.js

@@ -1097,7 +1097,7 @@ const sections = [
       </div>
 
       <h1>Vaccine Schedule by Medical Condition</h1>
-      <div className="dfe-block__inner">
+      <div className="table-container">
   <div className="dfe-block dfe-block--cdcmodule cdc_raw_html">
     <strong>
       <a id="table-age" className="onThisPageAnchor" title="" />
@@ -2202,6 +2202,7 @@ const sections = [
       </table>
 
       <h4>Differential Diagnosis</h4>
+      <div className='table-container'>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -2224,6 +2225,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
 
       <h4>Red Flags</h4>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
