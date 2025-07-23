@@ -1,6 +1,7 @@
 import SectionTemplate from '../components/SectionTemplate';
 import React, { useState, useRef } from 'react';
 import { thStyle, tdStyle } from '../styles/styles';
+import "../App.css";
 
 const sections = [
   {
