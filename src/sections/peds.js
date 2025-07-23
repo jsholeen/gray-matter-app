@@ -1,7 +1,6 @@
 import SubSectionTemplate from '../components/SubSectionTemplate';
 import React, { useState, useRef } from 'react';
 import { thStyle, tdStyle, resourceImgStyle, resourceLinkStyle } from '../styles/styles';
-import  'C:/Users/Jshol/Documents/Gray matter website/gray-matter/src/App.css';
 
 const Vaccines15mo = {
   element: { "--mobile-header-offset": "0px", "--progress-value": "21%" },
