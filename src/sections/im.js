@@ -269,6 +269,7 @@ const sections = [
 
       <h3>GDMT for HF (2022 AHA/ACC/HFSA Guidelines)</h3>
       <p><strong>Key medication classes for HFrEF (Heart Failure with Reduced Ejection Fraction):</strong></p>
+      <div className="table-container">
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -319,7 +320,9 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
 
+      <div className="table-container">
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -355,7 +358,9 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
       <h3>GDMT Drug Trials and All-Cause Mortality Benefit</h3>
+      <div className="table-container">
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -440,6 +445,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
       <p style={{ fontStyle: "italic" }}>*All-Cause Mortality Benefit</p>
     </div>
   )
@@ -612,6 +618,7 @@ const sections = [
     <div>
       <h3>Pulmonary/Respiratory Conditions</h3>
       <h4>Oxygen Delivery Devices</h4>
+      <div className="table-container">
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -660,6 +667,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
       <p>
         <strong>Abbreviations:</strong> FiO<sub>2</sub>: fraction of inspired oxygen; IPAP: inspiratory positive airway pressure; EPAP: expiratory positive airway pressure; pCO<sub>2</sub>: pressure of carbon dioxide (on arterial/venous blood gas); Vt: tidal volume; RT: respiratory therapy<br />
         <strong>*Common conditions for BiPAP:</strong> COPD exacerbation, OHS, neuromuscular conditions (e.g., myasthenia gravis, Guillain-Barré syndrome, ALS)
@@ -764,7 +772,7 @@ const sections = [
                 </tr>
               </tbody>
             </table>
-      <img src="/asthma treatment.png" alt="Asthma Inhalers" style={{ width: '100%', maxWidth: 600, marginBottom: 20 }} />
+      <img src="/Asthma treatment.png" alt="Asthma Inhalers" style={{ width: '100%', maxWidth: 600, marginBottom: 20 }} />
 
              <h3>Pulmonary Embolism (PE)</h3>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
@@ -866,7 +874,7 @@ const sections = [
       </ol>
 
             // Add this table to your "Kidney Conditions (CKD and AKI)" section or wherever appropriate
-      
+      <div className="table-container">
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -937,6 +945,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
 
             // Add this to your CKD/AKI section or as a new section
       
@@ -1198,6 +1207,7 @@ const sections = [
 // Example tables for anemia types. Place these inside your Anemia section or wherever appropriate.
 
 <h4>Microcytic Anemia (MCV &lt;80)</h4>
+<div classNamer = "table-container">
 <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
   <thead>
     <tr>
@@ -1229,8 +1239,10 @@ const sections = [
     </tr>
   </tbody>
 </table>
+</div>
 
 <h4>Normocytic Anemia (MCV 80-100 fL)</h4>
+<div className="table-container">
 <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
   <thead>
     <tr>
@@ -1257,8 +1269,10 @@ const sections = [
     </tr>
   </tbody>
 </table>
+</div>
 
 <h4>Macrocytic Anemia (MCV &gt;100 fL)</h4>
+<div className="table-container">
 <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
   <thead>
     <tr>
@@ -1290,9 +1304,11 @@ const sections = [
     </tr>
   </tbody>
 </table>
+</div>
 
 <h4>Hemolytic Anemia (RI &gt;2%)</h4>
 <h5>Extrinsic (to RBCs)</h5>
+<div className="table-container">
 <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
   <thead>
     <tr>
@@ -1319,8 +1335,10 @@ const sections = [
     </tr>
   </tbody>
 </table>
+</div>
 
 <h5>Intrinsic (to RBCs)</h5>
+<div className="table-container">
 <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
   <thead>
     <tr>
@@ -1342,6 +1360,7 @@ const sections = [
         </tr>
         </tbody>
       </table>
+      </div>
 // Add this to your Anemia section under the tables, for example after the last table
 
 <h4>Management / Treatments</h4>

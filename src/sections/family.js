@@ -615,7 +615,7 @@ const sections = [
     content: (
       <>
       <h1>Vaccine Schedule by Age</h1>
-      <div className="dfe-block__inner">
+      <div className="table-container">
         <div className="dfe-block dfe-block--cdcmodule cdc_raw_html">
           <strong>
             <a id="table-age" className="onThisPageAnchor" title="" />
@@ -2228,6 +2228,7 @@ const sections = [
       </div>
 
       <h4>Red Flags</h4>
+      <div className='table-container'>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -2248,8 +2249,10 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
 
       <h4>Physical Exam</h4>
+      <div className='table-container'>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -2270,6 +2273,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
 
       <h4>Diagnosis</h4>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
@@ -2288,6 +2292,7 @@ const sections = [
       </table>
 
       <h4>Management</h4>
+      <div className='table-container'>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -2306,6 +2311,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
 
       <hr />
 
@@ -2388,6 +2394,7 @@ const sections = [
       </table>
 
       <h4>Differential Diagnosis (MGH)</h4>
+      <div className='table-container'>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <thead>
           <tr>
@@ -2424,6 +2431,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
 
       <h4>Management</h4>
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>

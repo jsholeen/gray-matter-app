@@ -489,6 +489,7 @@ const sections = [
         <li>&le; 32 weeks: Increase of &ge; 10 bpm for &ge; 10 seconds</li>
       </ul>
       <h4>Decelerations</h4>
+      <div className="table-container">
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
         <thead>
           <tr>
@@ -519,6 +520,8 @@ const sections = [
             <td style={tdStyle}>Umbilical cord compression</td>
           </tr>
         </tbody>
+      </table>
+      </div>
         <h4>Early Decelerations</h4>
         <img src="https://www.aafp.org/content/dam/brand/aafp/pubs/afp/issues/1999/0501/p2487-f5.gif" alt="Early Deceleration" style={{ width: '100%', borderRadius: 8, marginBottom: 20 }} />
         <p>Early deceleration in a patient with an unremarkable course of labor. Notice that the onset and the return of the deceleration coincide with the start and the end of the contraction, giving the characteristic mirror image.</p>
@@ -528,7 +531,7 @@ const sections = [
         <h4>Variable Decelerations (without variabilitiy)</h4>
         <img src="https://www.aafp.org/content/dam/brand/aafp/pubs/afp/issues/1999/0501/p2487-f7.gif" alt="Variable Deceleration" style={{ width: '100%', borderRadius: 8, marginBottom: 20 }} />
         <p>Late deceleration with loss of variability. This is an ominous pattern, and immediate delivery is indicated.</p>
-      </table>
+
       <h4>FHR Categories</h4>
       <div className="table-container">
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>

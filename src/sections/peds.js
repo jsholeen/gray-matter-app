@@ -715,7 +715,7 @@ const sections = [
           </ul>
           </div>
           <p>Use the CDC Milestone Tracker app for tracking developmental milestones.</p>
-          <img src="/milestones.jpg" alt="Milestone Tracker" style={{ width: '100%' }} />
+          <img src="/CDC Milestones.jpg" alt="Milestone Tracker" style={{ width: '100%' }} />
           <p>For more information, visit the <a href="https://www.cdc.gov/ncbddd/actearly/milestones-app.html" target="_blank" rel="noopener noreferrer">CDC Milestone Tracker</a>.</p>
           <a href="https://www.cdc.gov/ncbddd/actearly/milestones-app.html" target="_blank" rel="noopener noreferrer" style={resourceLinkStyle}>
           <img src="https://play-lh.googleusercontent.com/F_ey5NpRYgiEpYgT3Uexf6sSRhIl7l-gOXu_HSokDcWCpI2Dt89pkK_4JTqtKMheQk7U=w480-h960" alt="CDC Milestone Tracker" style={resourceImgStyle} />
@@ -729,12 +729,13 @@ const sections = [
     title: "Vaccinations",
     content: (
       <>
-    <div className="table-container">
+    <div className="dfe-section">
       <div className="dfe-block dfe-block--cdcmodule cdc_raw_html">
         <strong>
           <a id="table-1" className="onThisPageAnchor" title="" />
           Legend
         </strong>
+        <div className="table-container">
         <table>
           <tbody>
             <tr>
@@ -767,6 +768,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <div className="mt-2">
           <strong>
             These recommendations must be read with the notes that follow.
@@ -780,6 +782,7 @@ const sections = [
           ).
         </div>
         <div className="schedules-tbl-wrapper">
+          <div className="table-container">
           <table className="table table-schedule table-bordered">
             <thead className="sticky-headers">
               <tr>
@@ -1647,6 +1650,7 @@ const sections = [
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </div>

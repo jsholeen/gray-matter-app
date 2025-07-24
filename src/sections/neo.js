@@ -113,6 +113,7 @@ const sections = [
         <p>
           APGARs are repeated at 1 and 5 minutes from birth. If APGAR &lt; 7, repeat APGAR at 10 minutes.
         </p>
+        <div className='table-container'>
         <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
           <thead>
             <tr>
@@ -185,7 +186,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h3>Primitive Reflexes of Infancy</h3>
+        <div className='table-container'>
         <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
           <thead>
             <tr>
@@ -237,6 +240,7 @@ const sections = [
             </tr>
           </tbody>
           </table>
+        </div>
 
           <h3>Newborn Screening (NBS)</h3>
           <p>
@@ -252,6 +256,7 @@ const sections = [
               The optimal time for screening is <strong>24–48 hours after birth</strong>.
             </li>
           </ul>
+          <div className='table-container'>
           <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
             <thead>
               <tr>
@@ -283,6 +288,7 @@ const sections = [
               </tr>
             </tbody>
           </table>
+        </div>
       </div>
     )
   },
@@ -322,7 +328,7 @@ const sections = [
         <h3>Bilirubin Discussion</h3>
         <ul>
           <li><strong>Critical to know causes of hyperbilirubinemia</strong></li>
-          <img src="/bilirubin.jpg" alt="Bilirubin Chart" style={{ width: '100%', maxWidth: '600px', marginBottom: '1em' }} />
+          <img src="/Bilirubin.jpg" alt="Bilirubin Chart" style={{ width: '100%', maxWidth: '600px', marginBottom: '1em' }} />
           <li>Questions to ask mothers:</li>
           <ul>
             <li>Any yellow color in the whites of the eye?</li>
@@ -392,6 +398,7 @@ const sections = [
     content: (
       <div>
         <h3>Benign Heart Murmurs</h3>
+        <div className='table-container'>
         <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
           <thead>
             <tr>
@@ -428,8 +435,10 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>Pathologic Heart Murmurs</h3>
+        <div className='table-container'>
         <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
           <thead>
             <tr>
@@ -502,6 +511,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
       </div>
     )
   },

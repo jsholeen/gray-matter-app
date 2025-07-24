@@ -435,6 +435,7 @@ const sections = [
       <hr />
 
       <h3>Lap Appy (Laparoscopic Appendectomy)</h3>
+      <div className="table-container">
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
         <tbody>
           <tr>
@@ -473,6 +474,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
       <hr />
 
       <h3>Ex Lap (Exploratory Laparotomy)</h3>
@@ -698,6 +700,7 @@ const sections = [
             <p style={{ color: 'red', fontWeight: 'bold' }}>
               ALWAYS TAKE PICTURES AND UPLOAD TO EPIC HAIKU BEFORE YOU PUT ON NEW DRESSING
             </p>
+            <div className="table-container">
             <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "1em" }}>
               <thead>
                 <tr>
@@ -854,6 +857,7 @@ const sections = [
                 </tr>
               </tbody>
             </table>
+            </div>
     </div>
   ),
 },
