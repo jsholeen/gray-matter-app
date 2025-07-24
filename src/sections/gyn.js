@@ -33,6 +33,7 @@ const sections = [
           </tbody>
         </table>
         <h4>Risk Factors</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -43,6 +44,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Diagnosis</h4>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
@@ -63,6 +65,7 @@ const sections = [
           </tbody>
         </table>
         <h4>Differential Diagnosis</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -73,6 +76,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Complications</h4>
         <p>
           Potential to put pregnancy at risk for breech position from structural pressure.
@@ -97,6 +101,7 @@ const sections = [
           </tbody>
         </table>
         <h4>Risk Factors</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -107,6 +112,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Diagnosis</h4>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
@@ -126,6 +132,7 @@ const sections = [
           </tbody>
         </table>
         <h4>Differential Diagnosis</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -136,6 +143,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
       </div>
     ),
   },
@@ -150,6 +158,7 @@ const sections = [
         </p>
 
         <h4>Hormonal Methods</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -250,8 +259,10 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h4>Barrier Methods</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -298,8 +309,10 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h4>Permanent Methods</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -344,8 +357,10 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>Long-Acting Reversible Contraceptives (LARCs)</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -411,8 +426,10 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>Emergency Contraception</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -469,6 +486,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
       </div>
     ),
   },
@@ -537,6 +555,7 @@ const sections = [
         </div>
 
         <h3>Cervicitis</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -571,8 +590,10 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>Syphilis</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -607,6 +628,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>HIV Screening</h3>
         <ul>
@@ -638,6 +660,7 @@ const sections = [
           <li>65+: Discontinue if no abnormal results in past 10 years and 3 consecutive negative Pap smears or 2 negative co-tests (most recent within 5 years). <br /> <strong>Exceptions:</strong> History of cervical cancer, CIN 2/3, immunocompromised.</li>
         </ul>
         <h4>Questions to Ask Patients</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -660,6 +683,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Procedure</h4>
         <ul>
           <li>Patient in lithotomy position, draped for privacy</li>
@@ -675,6 +699,7 @@ const sections = [
         </ul>
 
         <h3>Endometrial vs Cervical vs Ovarian Cancers</h3>
+        <div className="table-container">
         <h4>General Questions to Assess for Cancer Recurrence</h4>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
@@ -691,6 +716,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h4>Endometrial Cancer</h4>
         <p><strong>Definition:</strong> Malignancy from uterine lining. Most common gynecologic cancer, usually post-menopause.</p>

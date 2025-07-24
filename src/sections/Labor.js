@@ -178,7 +178,7 @@ const sections = [
     title: "Indications for C/S and SVD & Complications",
     content: (
       <div>
-        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/dRCDgmIetr4?si=HMiPsxY2ii7g9gEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        <center><iframe size = "100%" src="https://www.youtube.com/embed/dRCDgmIetr4?si=HMiPsxY2ii7g9gEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
         <h3>Indications for C/S and SVD & Complications</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
@@ -202,6 +202,7 @@ const sections = [
           </tbody>
         </table>
         <h4>C/S Indications</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -234,6 +235,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>C/S Contraindications</h4>
         <ul>
           <li>Severe coagulopathy of mother</li>
@@ -278,7 +280,7 @@ const sections = [
     content: (
       <div>
         <h3>Induction of Labor (IOL): Indications</h3>
-        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/9D3X5IqPsP4?si=IddycnKaBAShIiZS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        <center><iframe size = "100%" src="https://www.youtube.com/embed/9D3X5IqPsP4?si=IddycnKaBAShIiZS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -371,6 +373,7 @@ const sections = [
         </table>
         </div>
         <h3>IOL Physical Methods</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -401,6 +404,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h3>IOL Contraindications</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
@@ -436,7 +440,7 @@ const sections = [
   content: (
     <div>
       <h3>Fetal Heart Tracing Overview</h3>
-      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ruBOnGByk38?si=hvLLcjEY1yCLt5OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+      <center><iframe size = "100%" src="https://www.youtube.com/embed/ruBOnGByk38?si=hvLLcjEY1yCLt5OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
       <p>
         Fetal heart tracing is used to monitor fetal well-being during labor by relating fetal heart rate (FHR) to uterine contractions.
       </p>
@@ -458,6 +462,7 @@ const sections = [
         </tbody>
       </table>
       <h4>Variability (FHR Fluctuations from Baseline)</h4>
+      <div className="table-container">
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
         <thead>
           <tr>
@@ -476,6 +481,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
       <h4>Accelerations</h4>
       <ul>
         <li>Indicate fetal well-being in most cases due to expected immature nervous system.</li>
@@ -524,6 +530,7 @@ const sections = [
         <p>Late deceleration with loss of variability. This is an ominous pattern, and immediate delivery is indicated.</p>
       </table>
       <h4>FHR Categories</h4>
+      <div className="table-container">
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
         <thead>
           <tr>
@@ -555,6 +562,7 @@ const sections = [
           </tr>
         </tbody>
       </table>
+      </div>
       <h4>Mnemonic: VEAL CHOP MINE</h4>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
         <thead>

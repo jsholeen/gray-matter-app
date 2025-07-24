@@ -85,6 +85,7 @@ const sections = [
           <li>XII—tongue midline without deviation</li>
         </ul>
         <p><strong>Motor:</strong> [Ab/normal] tone and bulk throughout</p>
+        <div className='table-container'>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -185,6 +186,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <p><strong>Coordination:</strong> Finger to nose and heel to shin unremarkable. No tremors.</p>
         <p><strong>Proprioception:</strong> Negative Romberg sign.</p>
         <p><strong>Gait:</strong> Normal regular gait, tandem gait, heel walk, and toe walk.</p>
@@ -363,6 +365,7 @@ const sections = [
         </ol>
         <h4>MRIs for strokes</h4>
         <p><em>*Need to see correlates between DWI and ADC for acute stroke</em></p>
+        <div className ="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -411,6 +414,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         {/* Anatomy Section */}
         <h4>Anatomy</h4>
         <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '1em' }}>
@@ -504,6 +508,7 @@ const sections = [
         </table>
         </div>
         <h5>Hemorrhagic Stroke (Has yet to peak and have progressively worse symptoms)</h5>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -581,6 +586,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Risk Factors for Stroke</h4>
         <strong>Modifiable Factors</strong>
         <ul>
@@ -646,6 +652,7 @@ const sections = [
         <p>
           This framework helps guide the differential diagnosis of altered mental status (AMS). Helpful for both Neuro and IM!
         </p>
+        <div className='table-container'>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -684,6 +691,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>Dementia</h3>
         <p>
@@ -720,6 +728,7 @@ const sections = [
         </table>
 
         <h4>Ddx for Dementia</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -784,6 +793,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h3>Coma</h3>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
@@ -903,6 +913,7 @@ const sections = [
         </p>
 
         <h3>Normal Pressure Hydrocephalus (NPH)</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -928,6 +939,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h4>Pro Tip: Observation over History</h4>
         <p>
@@ -941,6 +953,7 @@ const sections = [
     content: (
       <>
         <h3>Headache Evaluation & Treatment Table</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -1000,6 +1013,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
       </>
     ),
   },
@@ -1058,6 +1072,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        
         <p><strong>NOTE:</strong> Most adult-onset generalized seizures are focal in onset with subsequent secondary generalization.</p>
 
         <h4>Common Causes (VITAMINS mnemonic)</h4>
@@ -1081,6 +1096,7 @@ const sections = [
         </table>
 
         <h4>Diagnostic Workup</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -1120,6 +1136,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h4>Antiseizure Medications</h4>
         <div className="table-container">
@@ -1269,6 +1286,7 @@ const sections = [
           <strong>Status epilepticus:</strong> continuous, prolonged seizures &gt;5 min or ≥2 seizures without return to baseline &lt;30 min. <span style={{ color: 'red' }}>Medical emergency!</span>
         </p>
         <h5>Treatment for Generalized Convulsive Status Epilepticus</h5>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -1294,6 +1312,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
       </>
     ),
   },

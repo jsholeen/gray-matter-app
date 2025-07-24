@@ -8,7 +8,7 @@ const sections = [
     content: (
 
       <div>
-        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/14R4d7ERuIg?si=XtXJHFE6UTLPA3d9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        <center><iframe size = "100%" src="https://www.youtube.com/embed/14R4d7ERuIg?si=XtXJHFE6UTLPA3d9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
         <h3>HPI Note</h3>
         <p>
@@ -66,6 +66,7 @@ const sections = [
           </li>
         </ul>
         <h3>Prenatal Visit Questions Table</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -84,6 +85,7 @@ const sections = [
 
           </tbody>
         </table>
+        </div>
       </div>
     ),
   },
@@ -94,6 +96,7 @@ const sections = [
       <div>
 
         <h3>Gestational Diabetes Mellitus (GDM)</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -121,7 +124,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Questions to Ask</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -144,7 +149,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Risk Factors</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -156,6 +163,7 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
         <h4>Diagnosis: </h4><p>Evaluated for @ 24-28 weeks</p><ul>
           <li>Glucose tolerance test (GTT): Give patient a certain amount of glucose and wait to see if their body can regulate it properly after a certain period of time</li>
@@ -229,8 +237,9 @@ const sections = [
     title: 'Gestational Hypertension & Preeclampsia',
     content: (
       <div>
-        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ye0E5BeWRPY?si=kgfVWi_Usxi4HEpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        <center><iframe size = "100%" src="https://www.youtube.com/embed/ye0E5BeWRPY?si=kgfVWi_Usxi4HEpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
         <h1>Gestational Hypertension (gHTN)</h1>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -255,7 +264,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Questions to Ask</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -274,7 +285,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Risk Factors</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -286,7 +299,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Diagnosis</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -301,7 +316,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Treatment</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -327,7 +344,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h1>Preeclampsia</h1>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -353,7 +372,9 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Questions to Ask (Cardinal 4)</h4>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <tbody>
             <tr>
@@ -377,8 +398,8 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
         <h4>Diagnosis</h4>
-
 
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
@@ -450,8 +471,9 @@ const sections = [
     title: 'Pregnancy Care',
     content: (
       <div>
-        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ruBOnGByk38?si=QD9dCQtXTXKztz8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        <center><iframe size = "100%" src="https://www.youtube.com/embed/ruBOnGByk38?si=QD9dCQtXTXKztz8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
         <h3>Prenatal Care by Trimester</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -530,9 +552,11 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
 
         <h3>Intrapartum Management</h3>
+        <div className="table-container">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
           <thead>
             <tr>
@@ -565,10 +589,11 @@ const sections = [
             </tr>
           </tbody>
         </table>
+        </div>
 
 
         <h3>Postpartum Care</h3>
-            <div>
+            <div className="table-container">
               <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                 <thead>
                   <tr><th colSpan={4} style={thStyle}><center>Postpartum Hemorrhage</center></th></tr>
