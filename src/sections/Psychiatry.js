@@ -566,7 +566,7 @@ const sections = [
                             </tr>
                             <tr>
                                 <td style={tdStyle}>Suicidal thoughts</td>
-                                <td style={tdStyle}>"Have you had thoughts of killing/harming</td> yourself or ending your
+                                <td style={tdStyle}>"Have you had thoughts of killing/harming yourself or ending your life?"</td>
                             </tr>
                         </tbody>
                     </table>
@@ -758,6 +758,7 @@ const sections = [
                 </table>
 
                 <h4>Plan</h4>
+                <div className="table-container">
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -790,6 +791,7 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
 
                 <h3>Suicidal Ideation</h3>
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
@@ -1100,6 +1102,7 @@ const sections = [
                 </ul>
 
                 <h3>Medications in the ER for Sedation (Algorithm)</h3>
+                <div className="table-container">
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1125,6 +1128,7 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
 
                 <h3>Counseling the Manic Patient</h3>
                 <ul>
@@ -1152,6 +1156,7 @@ const sections = [
                 </ul>
 
                 <h4>Differential Diagnosis</h4>
+                <div className="table-container">
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1172,8 +1177,10 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
 
                 <h4>Plan</h4>
+                <div className="table-container">
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1192,6 +1199,7 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
             </>
 
         ),
@@ -1282,6 +1290,7 @@ const sections = [
                 </ul>
 
                 <h3>Differential Diagnosis</h3>
+                <div className="table-container">
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1311,8 +1320,10 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
 
                 <h3>Plan</h3>
+                <div className="table-container">
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1345,6 +1356,7 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
                 <img src='psychotic disorders.jpg' alt='Schizophrenia and Psychosis' style={{ width: '100%', marginBottom: '1em' }} />
 
                 
@@ -1357,6 +1369,7 @@ const sections = [
         content: (
             <>
             <h3>Substance Use/Induced Disorder</h3>
+                <div className="table-container">
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1449,6 +1462,7 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
 
                 <h4>Assessment Strategies</h4>
                 <strong>Screening Questions:</strong>
@@ -1558,6 +1572,7 @@ const sections = [
                                 // Add this JSX where you want to display "General Principles" (e.g., after the substance tables)
                 
                 <h4>General Principles</h4>
+                <div className='table-container'>   
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1594,9 +1609,11 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
                                 // Add this JSX where you want to display "High-Yield Points" (e.g., after General Principles)
                 
                 <h4>High-Yield Points</h4>
+                <div className='table-container'>
                 <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '1em' }}>
                     <thead>
                         <tr>
@@ -1643,6 +1660,7 @@ const sections = [
                         </tr>
                     </tbody>
                 </table>
+                </div>
             </>
         ),
     },
