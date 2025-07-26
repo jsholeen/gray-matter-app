@@ -9,6 +9,7 @@ const sections = [
   { title: "Review of Systems", path: "/ROS" },
   { title: "Normal Physical Exam", path: "/PE" },
   { title: "Oral Presentations", path: "/Presentation" },
+  { title: "General PreRound Checklist", path: "/Prerounding" }
 ];
 
 

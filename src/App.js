@@ -29,6 +29,7 @@ import Food from './sections/food';
 import Transportation from './sections/transportation';
 import OHP from './sections/ohp';
 import Wellness from './sections/wellness';
+import Preround from './sections/GeneralTopics/Prerounding'; // Import the Preround component
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
         <Route path="/transportation" element={<Transportation />} />
         <Route path="/OHP" element={<OHP />} />
         <Route path="/wellness" element={<Wellness />} />
+        <Route path="/Prerounding" element={<Preround />} />
 
       </Routes>
     </Router>
