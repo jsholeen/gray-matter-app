@@ -24,6 +24,11 @@ import ScrollToTop from './ScrollToTop';
 import ObGyn from './sections/OBGYN test';
 import Feedback from './sections/Feedback';
 import Pediatrics from './sections/Pediatrics'; // Import the Pediatrics component
+import Writers from './sections/writers';
+import Food from './sections/food';
+import Transportation from './sections/transportation';
+import OHP from './sections/ohp';
+import Wellness from './sections/wellness';
 
 function App() {
   return (
@@ -54,9 +59,12 @@ function App() {
         <Route path="/OBGYN Test" element={<ObGyn />} /> 
         <Route path="/Feedback" element={<Feedback />} />
         <Route path="/Pediatrics" element={<Pediatrics />} /> {/* Add the Pediatrics route */}
+        <Route path="/writers" element={<Writers />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/transportation" element={<Transportation />} />
+        <Route path="/OHP" element={<OHP />} />
+        <Route path="/wellness" element={<Wellness />} />
 
-
-       
       </Routes>
     </Router>
   );
