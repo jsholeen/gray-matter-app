@@ -30,14 +30,6 @@ import Transportation from './sections/transportation';
 import OHP from './sections/ohp';
 import Wellness from './sections/wellness';
 import Preround from './sections/GeneralTopics/Prerounding'; // Import the Preround component
-import { Analytics } from '@vercel/analytics/react';
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <>
-    <Analytics />
-    <App />
-  </>
-);
 
 
 function App() {
