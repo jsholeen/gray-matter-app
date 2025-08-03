@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
+
 function Button({ children }) {
   const [hover, setHover] = useState(false);
   return (
@@ -129,7 +131,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <Analytics />
     </>
   );
 };
