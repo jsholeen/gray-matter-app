@@ -2,10 +2,12 @@ import SectionTemplate from "../components/SectionTemplate";
 
 const Writers = () => {
   return (
-    <SectionTemplate>
-      <h2>Writers' Corner</h2>
-      <p>Content for Writers' Corner goes here.</p>
-    </SectionTemplate>
+    <>
+    <SectionTemplate title= "About the Writers"/>
+      <h2>Web Development</h2>
+      <h3>John Sholeen</h3>
+      <img src="Headshot.jpg" alt="John Sholeen" />
+    </>
   );
 };
 

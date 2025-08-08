@@ -486,6 +486,13 @@ const GeneralTopics = () => {
         </tbody>
       </table>
 
+        <h3>Student Rooms</h3>
+        <p>
+          <strong>Ben Taub:</strong> <br />
+          <strong>Texas Children’s:</strong> <br />
+          <strong>VA:</strong> <br />
+          <strong>St. Luke’s:</strong> 3rd Floor, Room Y346, Code: 1579*
+        </p>
 
     </>
   );
